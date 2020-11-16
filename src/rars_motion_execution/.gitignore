@@ -1,0 +1,4 @@
+# This directory needs to be here in order for the catkin python setup to
+# work.  However, at present, there is no need for any files here.
+*
+!.gitignore

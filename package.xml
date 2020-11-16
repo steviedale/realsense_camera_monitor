@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>camera_monitor</name>
+  <version>0.0.1</version>
+  <description>Camera monitor package</description>
+
+  <maintainer email="steven.dale@swri.org">Stevie Dale</maintainer>
+  <author email="steven.dale@swri.org">Stevie Dale</author>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+
+</package>
