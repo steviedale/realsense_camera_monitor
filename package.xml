@@ -14,5 +14,6 @@
   <depend>roscpp</depend>
   <depend>rospy</depend>
   <depend>realsense2_camera</depend>
+  <exec_depend>python-rospkg</exec_depend>
 
 </package>
