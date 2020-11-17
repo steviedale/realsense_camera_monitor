@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>camera_monitor</name>
+  <name>realsense_camera_monitor</name>
   <version>0.0.1</version>
   <description>Camera monitor package</description>
 
@@ -13,5 +13,6 @@
 
   <depend>roscpp</depend>
   <depend>rospy</depend>
+  <depend>realsense2_camera</depend>
 
 </package>
