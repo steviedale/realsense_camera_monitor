@@ -13,17 +13,11 @@ catkin_python_setup()
 
 catkin_package(
   INCLUDE_DIRS
-#    include
-  CATKIN_DEPENDS 
+  CATKIN_DEPENDS
     roscpp
     rospy
     realsense2_camera
 )
-
-#include_directories(
-#  include
-#  ${catkin_INCLUDE_DIRS}
-#)
 
 catkin_install_python(
   PROGRAMS scripts/camera_monitor.py
