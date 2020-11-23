@@ -19,12 +19,12 @@ catkin_package(
     realsense2_camera
 )
 
-catkin_install_python(
-  PROGRAMS scripts/camera_monitor.py
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-)
+#catkin_install_python(
+#  PROGRAMS scripts/camera_monitor.py
+#  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+#)
 
-foreach(dir generated_program)
-   install(DIRECTORY ${dir}/
-      DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/${dir})
-endforeach()
+#foreach(dir generated_program)
+#   install(DIRECTORY ${dir}/
+#      DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/${dir})
+#endforeach()
